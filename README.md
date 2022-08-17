@@ -23,9 +23,14 @@ Your python script must contain a function call `callback` which has the argumen
 
 Currently, Salmorejo supports:
 
+* Configmaps ("configmap", "configmaps", "cm")
+* Daemonsets ("daemonset", "daemonsets", "ds")
 * Deployments ("deployments", "deployment")
+* Ingresses ("ingress", "ingresses", "ing")
 * Pods ("pods", "pod", "po")
+* Secrets ("secret", "secrets")
 * Services ("services", "service", "svc")
+* Statefulsets  ("statefulset", "statefulsets", "sts")
 
 ## Installation
 
@@ -83,6 +88,10 @@ $ salmorejo watch ./scripts/counter.py pod,svc,deployments
 
 Examples of Scripts can be found under [here](./scripts/)
 
+
+## Why Python
+
+Although [Go](https://go.dev/) is the lingua franca to code against Kubernetes, [Python](https://go.dev/) could be considered the most used programming language by SysAdmins, SREs or Platform Engineers. Salmorejo was thought for this kind of people, and we hope that they enjoy it.
 
 ## What actually is Salmorejo?
 
