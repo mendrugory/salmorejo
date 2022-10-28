@@ -1,2 +1,5 @@
 beautifultable==1.1.0
-plotly
+plotly==5.10.0
+ipywidgets>=7.0.0
+dash==2.6.2
+dash-bootstrap-components==1.2.1 
